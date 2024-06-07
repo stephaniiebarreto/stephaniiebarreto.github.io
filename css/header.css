@@ -1,0 +1,26 @@
+.header {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-menu{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  gap: 40px;
+  justify-content: center;
+}
+
+.header-menu a{
+  color: #445D66;
+  font-size: 1.125rem;
+}
+
+@media (max-width:600px){
+  .header-menu {
+    gap: 20px;
+  }
+}
