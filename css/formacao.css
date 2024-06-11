@@ -208,7 +208,15 @@ line-height: 1.5;
   }
 }
 
-@media (max-width:414px){
+@media (max-width:500px){
   .formacao .subtitulo-container h2{
     font-size: 3rem;}
-}
+  .formacao{
+    padding-top: 100px;
+    gap: 40px;
+  }
+  .formacao-lista{
+    flex-direction: column;
+  }
+    .formacao p{
+      font-size: 1rem;} }
